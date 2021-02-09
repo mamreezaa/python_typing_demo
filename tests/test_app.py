@@ -1,6 +1,8 @@
 import app
 
-def test_api():
+def test_born_in():
+    """Test born_in function
+    """
     mock =  {
         'id'            : 123,
         'name'          : 'mam',
