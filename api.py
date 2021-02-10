@@ -1,7 +1,7 @@
 from typing import (
     Dict, Any
 )
-#from models.student import Student
+from models.student import Student
 
 
 def add(x: int, y: int) -> int:
@@ -30,6 +30,6 @@ def get_student() -> Dict[str, Any]:
         'nationality': 'Emirati',
     }
 
-    # Student(**student)
+    Student(**student)
 
     return student
