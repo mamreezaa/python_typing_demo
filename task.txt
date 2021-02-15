@@ -1,0 +1,6 @@
+- create a module named gspy
+- write a function to add 2 numbers
+    - the numbers can be either int or float
+- write another function to add all numbers in a list
+    - the numbers can be either int or float
+- do test driven development

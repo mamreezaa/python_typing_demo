@@ -1,4 +1,4 @@
-from pydantic import BaseModel
+from pydantic import BaseModel,  validator
 
 class Student(BaseModel):
     """Create student model
@@ -10,3 +10,6 @@ class Student(BaseModel):
     name: str
     age: int
     nationality: str
+
+    @vali
+
