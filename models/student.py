@@ -10,6 +10,3 @@ class Student(BaseModel):
     name: str
     age: int
     nationality: str
-
-    @vali
-
